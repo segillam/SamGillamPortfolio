@@ -14,7 +14,7 @@ They can scroll down and view all the information, or they can click buttons at 
 
 To use my site, either scroll to browse or click the buttons at the top of the screen to be directed to specific sections automatically.
 
-![Ridirect buttons at the top of the screen](assets/images/screenshot.png)
+![Ridirect buttons at the top of the screen](assets/images/screenshot1.png)
 
 
 ## License
