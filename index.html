@@ -3,24 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SamGillamPortfolio</title>
     <link rel="stylesheet" href="./assets/css.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">My Work</a></li>
-                <li><a href="#">Contact Me</a></li>
-                <li><a href="#">My Resume</a></li>
+                <li>
+                  <a href="#aboutMe">About Me</a>
+                </li>
+                <li>
+                  <a href="#myWork">My Work</a>
+                </li>
+                <li><a href="#contactMe">Contact Me</a></li>
             </ul>
         </nav>
     </header>
     <div class="title">
         <h1>Sam Gillam Portfolio</h1>
     </div>
-    <div class="aboutMe">
+    <div class="aboutMe" id="aboutMe">
         <h1>About Me</h1>
         <div class="aboutMeContent">
             <p>
@@ -31,33 +34,39 @@
             <img src="./assets/images/betterme.png" alt="photo of myself">
         </div>
     </div>
-    <div class="myWork">
+    <div class="myWork" id="myWork">
         <h1>My Work</h1>
         <div class="myWorkContent">
-            <ul>
-                <li class="firstWork">
-                    <div>
-                        <h3>First Project</h3>
-                        <img src="" alt="">
-                    </div>
-                </li>
-                <li>
-                    <h3>Second Project</h3>
-                    <img src="" alt="">
-                </li>
-                <li>
-                    <h3>Third Project</h3>
-                    <img src="" alt="">
-                </li>
-                <li>
-                    <h3>Fourth Project</h3>
-                    <img src="" alt="">
-                </li>
-                <li>
-                    <h3>Fifth Project</h3>
-                    <img src="" alt="">
-                </li>
-            </ul>
+            <section class="project" id="project1">
+              <header>Project1</header>
+              <p>Project 1 description</p>
+            </section>
+            <section class="project" id="project2">
+              <header>Project2</header>
+              <p>Project 2 description</p>
+            </section>
+            <section class="project" id="project3">
+              <header>Project3</header>
+              <p>Project 3 description</p>
+            </section>
+            <section class="project" id="project4">
+              <header>Project4</header>
+              <p>Project 4 description</p>
+            </section>
+            <section class="project" id="project5">
+              <header>Project4</header>
+              <p>Project 5 description</p>
+            </section>
+          </div>
+    </div>
+    <div class="contactMe" id="contactMe">
+      <h1>Contact Me</h1>
+        <div class="contactMeContent">
+          <ul>
+            <li>317-438-3616</li>
+            <li>gillamsamuel@yahoo.com</li>
+            <li><a href="https://www.linkedin.com/in/samuel-gillam/">LinkedIn</a></li>
+          </ul>
         </div>
     </div>
 </body>

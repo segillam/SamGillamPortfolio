@@ -70,12 +70,73 @@ h1 {
     display: flex;
 }
 
-.myWorkContent ul {
+.myWorkContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    border-style: solid;
+    border-color: black;
+    margin: 1%;
+    width: 40%;
+    color: white;
+  }
+  
+  #project1 {
+    margin: 1%;
+    width: 82%;
+    background-image: url("./images/background1.jpeg");
+    background-size: cover;
+    background-position: center;
+    color: black;
+  }
+
+  #project2 {
+    background-image: url("./images/background2.jpeg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  #project3 {
+    background-image: url("./images/background3.jpeg");
+    background-size: cover;
+    background-position: center;
+  }  
+  
+  #project4 {
+    background-image: url("./images/background4.jpeg");
+    background-size: cover;
+    background-position: center;
+  }  
+  
+  #project5 {
+    background-image: url("./images/background5.jpeg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .contactMeContent ul {
     list-style: none;
     display: flex;
-}
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+  }
 
-.myWorkContent li {
-    width: 100%;
-}
+  .contactMeContent li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border-left: 10px;
+    font-size: 30px;
+  }
 
+  @media screen and (max-width 800px) {
+    li{
+        max-width: 100%;
+    }
+  }
